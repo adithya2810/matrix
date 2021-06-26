@@ -1,0 +1,81 @@
+.home-content-container {
+  height: 1400px;
+  margin: 0px 0px 107px 80px;
+  @apply flex;
+  @screen sm {
+    @apply flex-col;
+  }
+}
+
+.home-content-tab {
+  font-size: 85px;
+  line-height: 95px;
+}
+
+.home-content-tab1 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: normal !important;
+
+}
+
+.home-content-tab2 {
+  font-family: Manrope;
+  font-style: normal;
+<<<<<<< HEAD
+  font-weight: 500;
+=======
+  font-weight: bold;
+>>>>>>> b6f700dd8589e51d9cff12f8cb8c816cc1a8fa0f
+  line-height: 144%;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.home-content-tab3 {
+  font-weight: 700;
+  margin-right: 1.5rem;
+  font-size: 12px;
+}
+
+.careers-select{
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: auto;
+  text-align: right !important;
+  letter-spacing: -0.01em;
+
+}
+
+
+
+.home-content-list {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  margin: 60px;
+}
+
+.home-content-list::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.home-content-side-nav-container {
+  min-width: 663px;
+  padding-left: 80px;
+  @apply bg-secondary;
+  @apply items-center;
+  @apply flex;
+  @apply flex-col;
+  @apply justify-center;
+  @screen sm {
+    @apply w-full;
+    @apply flex-row;
+  }
+}
+
+.home-content-side-nav-container:after {
+  opacity: 0.5;
+}
