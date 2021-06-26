@@ -1,0 +1,45 @@
+.home-content-container {
+  height: 1000px;
+  @apply flex;
+  @screen sm {
+    @apply flex-col;
+  }
+}
+
+.home-content-tab {
+  font-size: 85px;
+  line-height: 95px;
+}
+
+.home-content-list {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  margin: 60px;
+}
+
+.home-content-list::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.home-content-side-nav-container {
+  min-width: 500px;
+  padding-left: 40px;
+  @apply bg-secondary;
+  @apply items-center;
+  @apply flex;
+  @apply flex-col;
+  @apply justify-center;
+  @screen sm {
+    @apply w-full;
+    @apply flex-row;
+  }
+}
+
+.home-content-side-nav-container:after {
+  opacity: 0.5;
+}
+
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+}
